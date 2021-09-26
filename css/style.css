@@ -1,0 +1,269 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+body{
+    overflow-x: hidden;
+    font-family: 'Inter',sans-serif;
+}
+/*Navbar*/
+.navbar-brand{font-size: 35px;font-weight: bold}
+.navbar-brand span{
+    background: #991b1f;
+    color: #fff;
+    font-weight: 400;
+    font-size: 8px;
+    letter-spacing: 3px;
+    padding:2px;
+    width: 122px;
+
+ 
+}
+.nav-item .nav-link{font-size: 18px}
+.navbar ul li a{font-size: 15px;}
+.navbar .menu-link{text-decoration: none; color:#fff;background-color: #387dff;}
+
+                    
+    
+
+/*Navbar*/
+/*slider*/
+.slider{
+    background: linear-gradient(#0f4fafeb, #2967a161),url(https://websitedemos.net/dental-02/wp-content/uploads/sites/40/2020/07/dental-bg.jpg) center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 600px;
+    border-radius: 0 0 40% 40%;
+
+     }
+.slider .life{margin-left: 80px;padding-top:80px;color: #fff;text-align: left;}
+.slider .life h1{ 
+    font-size: 30px;
+font-weight: 600;
+line-height: 3rem;
+
+}
+.slider .life p{font-size:15px;line-height: 2rem;
+    
+}
+.slider .content{color:#fff;background-color: #387dff;padding:20px}
+/*Slider*/
+/*about*/
+.about-info{margin-left:60px}
+.about-info img{
+width:27px;
+position: absolute;
+left:120px;
+margin-left:40px;
+border-radius: 50%;
+}
+.about .btn {text-decoration: none; color: #387dff;font-size: 16px}
+.about .btn span{margin-left: 20px}
+
+.about-left-img{
+    background-image: url(https://websitedemos.net/dental-02/wp-content/uploads/sites/40/2020/07/about-section-1.jpg);
+    background-repeat: no-repeat;
+    text-align:right;
+    height: 500px;
+    width: 400px;
+    margin-left: 20%;
+
+}
+.about-left-img img{   
+    height: 273px;
+   margin-left: 70%;
+    text-align: right;
+    border-radius: 0px 0px 200px 200px;
+}
+
+/*about*/
+/*New Patient*/
+.new-patient{background:#387dff;height:600px;color: #fff;width:65%}
+.new-patient h2{padding-top: 50px;margin-bottom:50px}
+.new-patient p{line-height: 30px;}
+.new-patient li{list-style: none;}
+.new-patient .details{
+    background-color: #fff;
+    margin-left: 90vh;
+    margin-top:-200px;
+    height: 360px;
+    width:35%
+}
+.new-patient a{
+    background: #387dff;
+    color:#fff;
+    text-decoration: none;
+    padding: 10px;
+     font-weight:500;
+     font-size: 1rem;
+}
+.new-patient a:hover{background-color:#2a70f3;transition: all .5s;}
+/*New Patient*/
+/*Start dental-excellence*/
+.dental-excellence-right{text-align: left}
+.dental-excellence-img{
+    background:url(' https://websitedemos.net/dental-02/wp-content/uploads/sites/40/2020/07/dental-equipment.jpg') ;
+    background-repeat: no-repeat;
+    text-align:right;
+    height: 800px;
+    width: 400px;
+}
+.dental-excellence-img img{   
+    height: 600px;
+   margin-left: 70%;
+    text-align: right;
+    border-radius: 0px 0px 200px 200px;
+}
+.dental-excellence h2{padding-left:90px;font-size: 2.5rem;
+    font-weight: 600;}
+.dental-excellence h6{color:#1a1a1a; font-size: 1.125rem;}
+.dental-excellence p{line-height: 1.9rem;}
+
+
+/*End  dental-excellence*/
+/*Start Services*/
+.services{background-color:#f7faff;}
+.services h2{
+    font-size: 2.5rem;
+     font-weight: 600
+}
+.services  h6{font-size: 1.125rem}
+.services  img{width:50px}
+.services .types{background-color: #fff;height:200px}
+/*End Services*/
+/*Start Reviews*/
+/*End Reviews*/
+/*Start Smile*/
+.smile{
+    background:linear-gradient(#0f4fafeb, #2967a161),url('https://websitedemos.net/dental-02/wp-content/uploads/sites/40/2020/07/CTA-section-bg.jpg');
+    background-repeat: no-repeat;
+    background-position: center left;
+    background-size: cover;
+    height:391px;
+    color:#fff; 
+}
+.smile .text,.heading2,.booking{text-align: right;}
+.smile .text h6{margin-right: 10%}
+.smile .text h2{margin-left: 44px}
+.smile .booking {border:1px solid #fff;width: 21%;margin-left: 74%}
+.smile .booking span{color:#fff}
+.smile .booking img{width: 19px}
+.smile .booking:hover{background-color:#fff;transition: all .3s;}
+.smile span:hover{color:#387dff}
+
+/*End Smile*/
+/*Start reviews*/
+.reviews{background-color: #fafafa; border-radius: 0 0 40% 40%;}
+.reviews .one{background-color: #fff; width:342px}
+.reviews .box p{    font-size: 1.1em;font-style: italic;color:#676565f2;line-height: 27px;}
+.reviews .box h6{ font-weight: 600;color:#676565f2
+}
+.reviews .names img{border-radius: 50%;width:15%;}
+/*End reviews*/
+/*Start Contact*/
+.contact-section{background-color: #f7faff;}
+.contact {
+        background-color: #387dff;
+        width: 90%;
+        margin-left: 5%;
+        height:200px
+}
+.contact .address,.phone,.email{color: #fff;}
+.contact p {color:#d2e2ff}
+.info h3{color:#1a1a1a;font-size: 30px}
+.info form input{width:100%;height: 50px;}
+.info form textarea{width: 100%;height:200px}
+.info form button{
+    color:#fff;
+    background-color: #387dff;
+    border-radius: 10px;
+    padding-top: 16px;
+    padding-right: 24px;
+    padding-bottom: 12px;
+    padding-left: 24px;
+    font-weight: 500;
+    font-size: 0.9375rem;
+   
+}
+.info form button:hover{background-color:#445ce6;transition: all .3s}
+.map-right iframe{height: 543px;width: 561px;}
+/*End Contact*/
+/*Footer*/
+.footer ,.copy-right{background-color: #1d3157;color:#fff}
+.footer .footer-icons{text-align: right;width:100%;font-size: 30px; }
+.footer a{color: #fff; }
+
+/*Footer*/
+/*stories*/
+
+.stories .info h2{
+    font-size: 40px;
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 1.2;
+    color: #161616;
+}
+.stories .info h6{color: #161616;    font-size: 16px;}
+.stories .one{
+    background-image:linear-gradient(#2967a161, #2967a161), url(https://websitedemos.net/dental-02/wp-content/uploads/sites/40/2020/06/service-1.jpg);
+    background-position: center center;
+    background-size: cover;
+    height: 294px;
+color:#fff
+
+}
+.stories .two{
+    background-image: linear-gradient(#2967a161,#2967a161), url(https://websitedemos.net/dental-02/wp-content/uploads/sites/40/2020/06/service-2.jpg);
+    background-position: center center;
+    background-size: cover;
+    height: 294px;
+    color:#fff
+}
+.stories .three{
+    background-image: linear-gradient(#2967a161,#2967a161), url(https://websitedemos.net/dental-02/wp-content/uploads/sites/40/2020/06/service-3.jpg);
+    background-position: center center;
+    background-size: cover;
+    height: 294px;
+    color:#fff
+}
+.stories .four{
+    background-image: linear-gradient(#2967a161,#2967a161), url(https://websitedemos.net/dental-02/wp-content/uploads/sites/40/2020/06/service-4.jpg);
+    background-position: center center;
+    background-size: cover;
+    height: 294px;
+    color:#fff
+}
+.stories .five{
+    background-image: linear-gradient(#2967a161,#2967a161), url(https://websitedemos.net/dental-02/wp-content/uploads/sites/40/2020/06/service-5.jpg);
+    background-position: center center;
+    background-size: cover;
+    height: 294px;
+    color:#fff
+}
+.stories .six{
+    background-image: linear-gradient(#2967a161,#2967a161), url(https://websitedemos.net/dental-02/wp-content/uploads/sites/40/2020/06/service-6.jpg);
+    background-position: center center;
+    background-size: cover;
+    height: 294px;
+    color:#fff
+}
+.stories .seven{
+    background-image: linear-gradient(#2967a161,#2967a161), url(https://websitedemos.net/dental-02/wp-content/uploads/sites/40/2020/06/service-7.jpg);
+    background-position: center center;
+    background-size: cover;
+    height: 294px;
+    color:#fff
+}
+.stories .eight{
+    background-image: linear-gradient(#2967a161,#2967a161), url(https://websitedemos.net/dental-02/wp-content/uploads/sites/40/2020/06/service-8.jpg);
+    background-position: center center;
+    background-size: cover;
+    height: 294px;
+    color:#fff
+    
+}
+.stories .last{ background-color: #387dff;border-radius:0% 0% 60% 0%}
+.stories .box6 .text{color:#fff}
+
+/*stories*/
